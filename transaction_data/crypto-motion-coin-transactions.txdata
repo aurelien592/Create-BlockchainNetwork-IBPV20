@@ -1,0 +1,58 @@
+[
+    {
+        "transactionName": "CryptoMotionCoinExists",
+        "transactionLabel": "A test CryptoMotionCoinExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "CreateCryptoMotionCoin",
+        "transactionLabel": "A test createCryptoMotionCoin transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {
+            "privateValue": "some value"
+        }
+    },
+    {
+        "transactionName": "ReadCryptoMotionCoin",
+        "transactionLabel": "A test ReadCryptoMotionCoin transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "UpdateCryptoMotionCoin",
+        "transactionLabel": "A test UpdateCryptoMotionCoin transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {
+            "privateValue": "some other value"
+        }
+    },
+    {
+        "transactionName": "DeleteCryptoMotionCoin",
+        "transactionLabel": "A test DeleteCryptoMotionCoin transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "VerifyCryptoMotionCoin",
+        "transactionLabel": "A test VerifyCryptoMotionCoin transaction",
+        "arguments":[
+            "Org1MSP",
+            "001",
+            {
+                "privateValue": "some other value"
+            }
+        ],
+        "transientData": {}
+    }
+]
